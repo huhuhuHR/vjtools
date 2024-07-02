@@ -1,0 +1,590 @@
+repo_name: huhuhuHR/vjtools
+report_id: a8a0b390f5c490df3d85b0df83fce045
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:25:06+00:00'
+requested_by: zhangyafeikimi
+provider: github
+branch: master
+detected_tools_count: 27
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools
+  detection_source: Repo Metadata
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  version: '20.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/vjkit/pom.xml
+  detection_source: vjkit/pom.xml
+  last_updated_by: dehui.zheng
+  last_updated_on: 2018-05-29 11:34:30.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: '4.11'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/standard/sonar-vj/pom.xml
+  detection_source: standard/sonar-vj/pom.xml
+  last_updated_by: calvin.xiao
+  last_updated_on: 2018-05-30 08:56:13.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/standard/sonar-vj/pom.xml
+  detection_source: standard/sonar-vj/pom.xml
+  last_updated_by: calvin.xiao
+  last_updated_on: 2018-05-30 08:56:13.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 2.18.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/vjkit/pom.xml
+  detection_source: vjkit/pom.xml
+  last_updated_by: calvin.xiao
+  last_updated_on: 2018-06-06 09:57:18.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/standard/sonar-vj/pom.xml
+  detection_source: standard/sonar-vj/pom.xml
+  last_updated_by: calvin.xiao
+  last_updated_on: 2018-05-30 08:56:13.000000000 Z
+- name: SonarQube
+  description: Continuous Code Quality
+  website_url: http://www.sonarqube.org/
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2638/zIVhxKyn_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/standard/sonar-vj/pom.xml
+  detection_source: standard/sonar-vj/pom.xml
+  last_updated_by: calvin.xiao
+  last_updated_on: 2018-05-30 08:56:13.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: dehui.zheng
+  last_updated_on: 2018-05-30 02:47:26.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/vjkit/src/test/resources/application.properties
+  detection_source: vjkit/src/test/resources/application.properties
+  last_updated_by: calvin.xiao
+  last_updated_on: 2018-05-29 11:04:37.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools
+  detection_source: Repo Metadata
+- name: ch.qos.logback:logback-classic
+  description: Logback-classic module
+  version: 0.9.30
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/standard/sonar-vj/pom.xml
+  detection_source: standard/sonar-vj/pom.xml
+  last_updated_by: calvin.xiao
+  last_updated_on: 2018-05-30 08:56:13.000000000 Z
+  vulnerabilities:
+  - name: QOS.ch Logback vulnerable to Deserialization of Untrusted Data
+    cve_id: CVE-2017-5929
+    cve_url: https://github.com/advisories/GHSA-vmfg-rjjm-rjrj
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.2.0
+  - name: logback serialization vulnerability
+    cve_id: CVE-2023-6378
+    cve_url: https://github.com/advisories/GHSA-vmq6-5m68-f53m
+    detected_date: Nov 30
+    severity: high
+    first_patched: 1.2.13
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  version: 2.9.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/vjkit/pom.xml
+  detection_source: vjkit/pom.xml
+  last_updated_by: ken02.luo
+  last_updated_on: 2020-06-05 05:26:41.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2020-8840
+    cve_url: https://github.com/advisories/GHSA-4w82-r329-3q67
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.10.3
+  - name: Deserialization of Untrusted Data in jackson-databind
+    cve_id: CVE-2019-20330
+    cve_url: https://github.com/advisories/GHSA-gww7-p5w4-wrfv
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.10.2
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-9546
+    cve_url: https://github.com/advisories/GHSA-5p34-5m6p-p58g
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.9.10.4
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-11112
+    cve_url: https://github.com/advisories/GHSA-58pp-9c76-5625
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.4
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-11619
+    cve_url: https://github.com/advisories/GHSA-27xj-rqx5-2255
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.4
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-11113
+    cve_url: https://github.com/advisories/GHSA-9vvp-fxw6-jcxr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.4
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-11111
+    cve_url: https://github.com/advisories/GHSA-v3xw-c963-f5hc
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.4
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-10968
+    cve_url: https://github.com/advisories/GHSA-rf6r-2c4q-2vwg
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.4
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-10969
+    cve_url: https://github.com/advisories/GHSA-758m-v56v-grj4
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.4
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-11620
+    cve_url: https://github.com/advisories/GHSA-h4rc-386g-6m85
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.4
+  - name: jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization
+    cve_id: CVE-2020-10650
+    cve_url: https://github.com/advisories/GHSA-rpr3-cw39-3pxh
+    detected_date: Jul 16
+    severity: high
+    first_patched: 2.9.10.4
+  - name: Unsafe Deserialization in jackson-databind
+    cve_id: CVE-2020-24750
+    cve_url: https://github.com/advisories/GHSA-qjw2-hr98-qgfh
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.6
+  - name: XML External Entity (XXE) Injection in Jackson Databind
+    cve_id: CVE-2020-25649
+    cve_url: https://github.com/advisories/GHSA-288c-cq4h-88gq
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.7
+  - name: Serialization gadget exploit in jackson-databind
+    cve_id: CVE-2020-35728
+    cve_url: https://github.com/advisories/GHSA-5r5r-6hpj-8gg9
+    detected_date: Nov 22
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Uncontrolled Resource Consumption in FasterXML jackson-databind
+    cve_id: CVE-2022-42004
+    cve_url: https://github.com/advisories/GHSA-rgv9-q543-rqg4
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.12.7.1
+  - name: Code Injection in jackson-databind
+    cve_id: CVE-2020-24616
+    cve_url: https://github.com/advisories/GHSA-h3cw-g4mq-c5x2
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.6
+  - name: Serialization gadgets exploit in jackson-databind
+    cve_id: CVE-2020-35490
+    cve_url: https://github.com/advisories/GHSA-wh8g-3j2c-rqj5
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Serialization gadgets exploit in jackson-databind
+    cve_id: CVE-2020-35491
+    cve_url: https://github.com/advisories/GHSA-r3gr-cxrf-hg25
+    detected_date: Jan 28
+    severity: high
+    first_patched: 2.9.10.8
+  - name: Uncontrolled Resource Consumption in Jackson-databind
+    cve_id: CVE-2022-42003
+    cve_url: https://github.com/advisories/GHSA-jjjh-jjxp-wpff
+    detected_date: Oct 5
+    severity: high
+    first_patched: 2.12.7.1
+  - name: jackson-databind mishandles the interaction between serialization gadgets
+      and typing
+    cve_id: CVE-2020-10672
+    cve_url: https://github.com/advisories/GHSA-95cm-88f5-f2c7
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.4
+  - name: Deeply nested json in jackson-databind
+    cve_id: CVE-2020-36518
+    cve_url: https://github.com/advisories/GHSA-57j2-w4cx-62h2
+    detected_date: Mar 23
+    severity: high
+    first_patched: 2.12.6.1
+  - name: Deserialization of untrusted data in Jackson Databind
+    cve_id: CVE-2020-14195
+    cve_url: https://github.com/advisories/GHSA-mc6h-4qgp-37qh
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.5
+  - name: Deserialization of untrusted data in Jackson Databind
+    cve_id: CVE-2020-14061
+    cve_url: https://github.com/advisories/GHSA-c2q3-4qrh-fm48
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.5
+  - name: Deserialization of untrusted data in Jackson Databind
+    cve_id: CVE-2020-14062
+    cve_url: https://github.com/advisories/GHSA-c265-37vj-cwcc
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.5
+  - name: Deserialization of untrusted data in Jackson Databind
+    cve_id: CVE-2020-14060
+    cve_url: https://github.com/advisories/GHSA-j823-4qch-3rgm
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.9.10.5
+- name: dom4j:dom4j
+  description: Flexible XML framework for Java
+  version: 1.6.1
+  license: Plexus
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/vjkit/pom.xml
+  detection_source: vjkit/pom.xml
+  last_updated_by: calvin.xiao
+  last_updated_on: 2018-08-07 08:55:14.000000000 Z
+  vulnerabilities:
+  - name: dom4j allows External Entities by default which might enable XXE attacks
+    cve_id: CVE-2020-10683
+    cve_url: https://github.com/advisories/GHSA-hwj3-m3p6-hj38
+    detected_date: Jan 28
+    severity: critical
+    first_patched:
+  - name: Dom4j contains a XML Injection vulnerability
+    cve_id: CVE-2018-1000632
+    cve_url: https://github.com/advisories/GHSA-6pcc-3rfx-4gpm
+    detected_date: Jan 28
+    severity: high
+    first_patched:
+- name: com.alibaba:fastjson
+  description: Fastjson is a JSON processor
+  version: 1.2.70
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/vjkit/pom.xml
+  detection_source: vjkit/pom.xml
+  last_updated_by: ken02.luo
+  last_updated_on: 2020-06-05 05:26:41.000000000 Z
+  vulnerabilities:
+  - name: Unsafe deserialization in com.alibaba:fastjson
+    cve_id: CVE-2022-25845
+    cve_url: https://github.com/advisories/GHSA-pv7h-hx5h-mgfj
+    detected_date: Jun 17
+    severity: high
+    first_patched: 1.2.83
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/standard/sonar-vj/pom.xml
+  detection_source: standard/sonar-vj/pom.xml
+  last_updated_by: calvin.xiao
+  last_updated_on: 2018-05-30 08:56:13.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in Gson
+    cve_id: CVE-2022-25647
+    cve_url: https://github.com/advisories/GHSA-4jrv-ppp4-jm57
+    detected_date: May 21
+    severity: high
+    first_patched: 2.8.9
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  version: '20.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/vjkit/pom.xml
+  detection_source: vjkit/pom.xml
+  last_updated_by: ken02.luo
+  last_updated_on: 2020-05-22 02:48:34.000000000 Z
+  vulnerabilities:
+  - name: Guava vulnerable to insecure use of temporary directory
+    cve_id: CVE-2023-2976
+    cve_url: https://github.com/advisories/GHSA-7g45-4rm6-3mm3
+    detected_date: Jun 15
+    severity: moderate
+    first_patched: 32.0.0-android
+  - name: Denial of Service in Google Guava
+    cve_id: CVE-2018-10237
+    cve_url: https://github.com/advisories/GHSA-mvr2-9pj6-7w5j
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 24.1.1-android
+  - name: Information Disclosure in Guava
+    cve_id: CVE-2020-8908
+    cve_url: https://github.com/advisories/GHSA-5mg8-w23w-74h3
+    detected_date: Aug 22
+    severity: low
+    first_patched: 32.0.0-android
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.11'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/standard/sonar-vj/pom.xml
+  detection_source: standard/sonar-vj/pom.xml
+  last_updated_by: calvin.xiao
+  last_updated_on: 2018-05-30 08:56:13.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: org.sonarsource.sonarqube:sonar-plugin-api
+  description: Continuous Inspection
+  version: 6.7.1
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/standard/sonar-vj/pom.xml
+  detection_source: standard/sonar-vj/pom.xml
+  last_updated_by: qxo
+  last_updated_on: 2019-12-14 09:26:50.000000000 Z
+  vulnerabilities:
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in SonarSource
+      SonarQube API
+    cve_id: CVE-2018-19413
+    cve_url: https://github.com/advisories/GHSA-m643-2pfv-xwm8
+    detected_date: Jun 29
+    severity: moderate
+    first_patched: '7.5'
+- name: jaxen:jaxen
+  description: Jaxen is a universal XPath engine for Java
+  version: 1.1.6
+  license: DSDP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/vjkit/pom.xml
+  detection_source: vjkit/pom.xml
+  last_updated_by: calvin.xiao
+  last_updated_on: 2018-08-07 08:55:14.000000000 Z
+- name: net.sf.dozer:dozer
+  version: 5.5.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/vjkit/pom.xml
+  detection_source: vjkit/pom.xml
+  last_updated_by: dehui.zheng
+  last_updated_on: 2018-05-29 11:34:30.000000000 Z
+- name: net.sf.jopt-simple:jopt-simple
+  description: A Java library for parsing command line options
+  version: '4.9'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/vjtop/pom.xml
+  detection_source: vjtop/pom.xml
+  last_updated_by: dehui.zheng
+  last_updated_on: 2018-05-29 11:34:30.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  version: 3.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/vjkit/pom.xml
+  detection_source: vjkit/pom.xml
+  last_updated_by: testfixer
+  last_updated_on: 2020-02-09 15:48:47.000000000 Z
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  version: 3.6.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/standard/sonar-vj/pom.xml
+  detection_source: standard/sonar-vj/pom.xml
+  last_updated_by: calvin.xiao
+  last_updated_on: 2018-05-30 08:56:13.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  version: 2.18.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/vjkit/pom.xml
+  detection_source: vjkit/pom.xml
+  last_updated_by: testfixer
+  last_updated_on: 2020-02-09 15:48:47.000000000 Z
+- name: org.skyscreamer:jsonassert
+  description: A library to develop RESTful but flexible APIs
+  version: 1.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/vjkit/pom.xml
+  detection_source: vjkit/pom.xml
+  last_updated_by: ken02.luo
+  last_updated_on: 2020-06-05 05:26:41.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  version: 1.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/vjtools/blob/master/standard/sonar-vj/pom.xml
+  detection_source: standard/sonar-vj/pom.xml
+  last_updated_by: calvin.xiao
+  last_updated_on: 2018-05-30 08:56:13.000000000 Z
